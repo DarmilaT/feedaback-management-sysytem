@@ -51,6 +51,7 @@ const StudentDashboard = ({ studentId }) => {
     <div className="student-dashboard">
       <header className="header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '1rem', backgroundColor: '#f0f0f0', borderBottom: '2px solid #ccc' }}>
         <h1 style={{ color: '#333' }}>Student Feedback Management System</h1>
+        <h2>Welcome, {name}</h2>
         <button className="menu-btn" style={{ border: 'none', backgroundColor: 'transparent', cursor: 'pointer' }}>Menu</button>
     </header>
         <div className="student-info" style={{ marginTop: '20px',marginLeft:'50px',marginRight:'50px', padding: '10px', border: '1px solid #ccc', borderRadius: '5px', backgroundColor: '#f9f9f9' }}>
