@@ -1,23 +1,11 @@
-const data = [
-  {
-    id: 1,
-    question: "q1 fdhfdjgfj",
-    answer: "a1 ghjgjhgh",
-  },
-  {
-    id: 2,
-    question: "q2 fdhfdjgfj",
-    answer: "a2 ghjgjhgh",
-  },
-  {
-    id: 3,
-    question: "q3 fdhfdjgfj",
-    answer: "a3 ghjgjhgh",
-  },
-  {
-    id: 4,
-    question: "q4 fdhfdjgfj",
-    answer: "a4 ghjgjhgh",
-  },
+// src/data.js
+export const categories = [
+  { id: 1, name: "Subject command", types: ["Teacher", "Course"] },
+  { id: 2, name: "About myself", types: ["Teacher", "Course"] },
 ];
-export default data;
+
+export const questions = [
+  { id: 1, questionNo: "001", description: "What is your name?", options: ["Option 1", ", Option 2"], type: "Text" },
+  { id: 2, questionNo: "002", description: "Describe your teaching style?", options: ["Option 3", ", Option 4"], type: "Text" },
+];
+
