@@ -5,14 +5,13 @@ import Home from './components/home';
 
 import Auth from './components/auth';
 import Database from './components/databse';
+import MaSummuryPage from './pages/MA_Summary_Page/summuryPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   <Home/>
-   <Auth/>
-   <Database/>
-     </React.StrictMode>
+  <MaSummuryPage/>
+   </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
