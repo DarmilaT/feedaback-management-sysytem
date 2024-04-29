@@ -1,0 +1,56 @@
+/* maHomepageDashboard.css */
+.dashboard {
+    display: flex;
+    flex-direction: row; /* Align sidebar and main content side by side */
+    min-height: 100vh;
+  }
+  
+  .sidebar {
+    width: 200px; /* Set sidebar width */
+    background-color: #f0f0f0;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(-100%);
+  }
+  
+  .sidebar.show {
+    transform: translateX(0);
+  }
+  
+  .content {
+    flex: 1; /* Fill remaining space */
+    overflow-x: hidden; /* Hide horizontal overflow */
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .toggle-button {
+    cursor: pointer;
+  }
+  
+  .dashboard-title {
+    font-size: 20px;
+    margin-left: 15px; /* Add some space between toggle button and title */
+  }
+  
+  .list-buttons {
+    display: flex;
+    flex-direction: column; /* Display buttons in a column */
+    align-items: stretch; /* Stretch buttons to fill container horizontally */
+  }
+  
+  .list-buttons button {
+    margin: 5px; /* Add some space between buttons */
+    padding: 10px; /* Add padding to buttons */
+    border: none; /* Remove button borders */
+    background-color: #fff; /* Set button background color */
+    cursor: pointer;
+  }
+  
+  .list-buttons button:hover {
+    background-color: #f0f0f0; /* Change background color on hover */
+  }
+  
