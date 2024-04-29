@@ -47,7 +47,7 @@ export default function MaSummaryPage(){
 
     return(
         <div>
-            <h1>Summary page</h1>
+            <h1>Summary</h1>
             <h4>Course Feedback</h4>
             <div style={{ display: "flex", alignItems: "center" }}>
                 <div>
