@@ -1,21 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Home from './components/home';
-
-import Auth from './components/auth';
-import Database from './components/databse';
+import Dashboard from './pages/Dashboard';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   <Home/>
-   <Auth/>
-   <Database/>
+      <Dashboard studentId="At3CIwm65XSz41PHJlq3"/>
      </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-
+//<Dashboard studentId="At3CIwm65XSz41PHJlq3"/>
