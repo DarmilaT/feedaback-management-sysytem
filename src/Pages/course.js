@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './CourseFeedback.css';
+import '../styles/CourseFeedback.css';
 
 const CourseFeedback = () => {
   const [feedbackData, setFeedbackData] = useState({

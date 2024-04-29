@@ -5,14 +5,12 @@ import Home from './components/home';
 
 import Auth from './components/auth';
 import Database from './components/databse';
-import CourseFeedback from './components/course';
+import CourseFeedback from './Pages/course';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   <Home/>
-   <Auth/>
-   <Database/>
+   
    <CourseFeedback/>
      </React.StrictMode>
 );
