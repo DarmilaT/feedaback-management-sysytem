@@ -5,6 +5,7 @@ import Home from './components/home';
 
 import Auth from './components/auth';
 import Database from './components/databse';
+import CourseFeedback from './components/course';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,6 +13,7 @@ root.render(
    <Home/>
    <Auth/>
    <Database/>
+   <CourseFeedback/>
      </React.StrictMode>
 );
 
