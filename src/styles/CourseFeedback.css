@@ -1,0 +1,51 @@
+.course-feedback {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .question-section {
+    margin-bottom: 20px;
+  }
+  
+  .question {
+    margin-bottom: 10px;
+  }
+  
+  .question p {
+    font-weight: bold;
+  }
+  
+  .question .options {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .question .options label {
+    display: flex;
+    align-items: center;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 100px;
+    resize: vertical;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
