@@ -4,11 +4,12 @@ import "./index.css";
 import LoginPage from "./pages/LoginPage";
 import Database from "./components/databse";
 import RegisterPage from "./pages/RegisterPage";
+import Dashboard from "./pages/Dashboard"
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    {/* <LoginPage /> */}
+     <Dashboard studentId="At3CIwm65XSz41PHJlq3"/>
     <RegisterPage />
   </React.StrictMode>
 );
