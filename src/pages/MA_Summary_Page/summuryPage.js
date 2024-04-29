@@ -2,7 +2,7 @@ import { getDocs, collection} from "firebase/firestore";
 import React, { useEffect, useState } from "react";
 import { db } from "../../config/firebase";
 export default function MaSummaryPage(){
-    // Assuming you have academic year and feedback values stored in variables
+    // Assuming you have academic year and feedback values stored 
     const [courseFeedbackList, setCourseFeedbackList] = useState([]);
     const [toalResponce, setTotalRespoce] = useState([]);
     const databaseRef = collection(db, "courseFeedback");
